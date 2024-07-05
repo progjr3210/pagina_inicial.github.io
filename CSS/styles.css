@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #422680 0%,
+    #341671 16.67%,
+    #280659 33.33%,
+    #660f56 50%,
+    #ae2d68 66.67%,
+    #f54952 83.33%
+  );
+  color: #fdfcfd;
+  font-family: "Euclid Circular A", "Poppins";
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}

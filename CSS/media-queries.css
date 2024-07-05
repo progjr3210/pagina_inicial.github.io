@@ -1,0 +1,156 @@
+@media (width <= 600px) {
+  table {
+    width: 100vh;
+  }
+  .card1 {
+    margin: 0 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .card1 h2 {
+    margin-right: 0;
+    font-size: 26px;
+  }
+
+  .card1 img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+  }
+
+  .card1 p {
+    max-width: 360px;
+  }
+
+  .card2 {
+    margin: 0 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .card2 h2 {
+    margin-right: 0;
+    font-size: 26px;
+  }
+
+  .card2 img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+  }
+
+  .card2 p {
+    max-width: 360px;
+  }
+
+  .card3 {
+    margin: 0 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .card3 h2 {
+    margin-right: 0;
+    font-size: 26px;
+  }
+
+  .card3 img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+  }
+
+  .card3 p {
+    max-width: 360px;
+  }
+  section {
+    margin: 0 auto;
+    max-width: 580px;
+    padding: 0;
+  }
+
+  section.top .links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  section.top .socials {
+    position: static;
+  }
+
+  section.bottom {
+    justify-content: flex-start;
+  }
+
+  .socials-column :is(h2, p) {
+    display: block;
+  }
+}
+
+@media (width <= 440px) {
+  table {
+    width: 100vh;
+  }
+
+  .card1 img {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 50%;
+    margin: -140px 0 30px 0;
+  }
+
+  .card2 img {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 50%;
+    margin: -140px 0 30px 0;
+  }
+
+  .card3 img {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 50%;
+    margin: -140px 0 30px 0;
+  }
+  .links-column {
+    text-align: left;
+  }
+
+  section.top .links {
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 50px;
+  }
+
+  section.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+  }
+
+  section.top .socials {
+    left: 0;
+    translate: 0;
+  }
+
+  section.top > img {
+    margin: 0 0 50px;
+  }
+}

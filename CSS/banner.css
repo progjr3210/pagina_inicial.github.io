@@ -1,0 +1,24 @@
+.banner {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.banner img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner p {
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  max-width: 30vh;
+}
