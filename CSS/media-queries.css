@@ -2,8 +2,13 @@
   table {
     width: 100vh;
   }
+
+  .cards h1 {
+    text-align: center;
+  }
+
   .card1 {
-    margin: 0 40px;
+    margin: 75px 40px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
@@ -29,7 +34,7 @@
   }
 
   .card2 {
-    margin: 0 40px;
+    margin: 75px 40px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
@@ -55,7 +60,7 @@
   }
 
   .card3 {
-    margin: 0 40px;
+    margin: 75px 40px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
@@ -105,6 +110,10 @@
 @media (width <= 440px) {
   table {
     width: 100vh;
+  }
+
+  .cards h1 {
+    text-align: center;
   }
 
   .card1 img {
