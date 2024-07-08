@@ -46,13 +46,13 @@ header > h1 {
   place-items: center;
   width: 88px;
   height: 88px;
-  background-image: url("../../images/menu.svg");
+  background-image: url("../images/menu.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 body.open .burger {
-  background-image: url("../../images/close.svg");
+  background-image: url("../images/close.svg");
 }
 
 .menu {
