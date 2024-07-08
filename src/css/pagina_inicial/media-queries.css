@@ -3,6 +3,7 @@
     font-size: 1.875rem;
     margin-left: 70px;
   }
+}
 
 @media (width <= 600px) {
   header h1 {
