@@ -21,6 +21,7 @@ header > h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: degrade 10s linear infinite alternate;
+  font-size: 2rem;
 }
 
 @keyframes degrade {
